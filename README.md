@@ -1,10 +1,6 @@
-Group 51:
-Frederick Fraser
-Luke Derry
+Group 51: Luke Derry, Frederick Fraser    
 
-Final Version
-
-TODO: [ UPDATED 29 MAY ]
+TODO: [ UPDATED 29 MAY 2017 ]  
 - Separate out helicopter input.                                                    [Complete]  
 - Look into buttons. Adopt and adapt buttons2.c to incoporate all input             [Complete]  
 - Make PID control function return duty cycle (Percent 0.05 - 0.95)                 [Complete]  
@@ -16,19 +12,11 @@ TODO: [ UPDATED 29 MAY ]
 - Find forward reference                                                            [Complete]  
 - Implement soft reset                                                              [Complete]  
 - Make OLED/UART Display format adheres to specification                            [Complete]  
-- Destroy freezing bug                                                              [Complete]
-- UART/OLED Yaw display increment = [float 15.27] rather than specificed [int 15]   [Complete]
-- Comments + WhiteSpace + Formatting                                                [Complete]
+- Destroy freezing bug                                                              [Complete]  
+- UART/OLED Yaw display increment = [float 15.27] rather than specificed [int 15]   [Complete]  
+- Comments + WhiteSpace + Formatting                                                [Complete]  
 
 
-
-
-
-
-
--
--
--
 [History]
 __ 28.3.2017 ___________________________________________________________________  
 Updated Master branch to 28th March [Milestone1] version.  
@@ -39,7 +27,7 @@ Updated / Uploaded:
 - pwmGen.c + pwmGen.h  
 - README.md  
   
-NB: I assumed that the buttons2 and cirBufT files were not altered.  
+NB: I assume that the buttons2 and cirBufT files were not altered.  
 ________________________________________________________________________________  
   
 .  
