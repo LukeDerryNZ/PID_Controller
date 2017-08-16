@@ -1,6 +1,7 @@
 Group 51: Luke Derry, Frederick Fraser    
-
-TODO: [ UPDATED 29 MAY 2017 ]  
+2017 Remote Helicopter Project at University of Canterbury  
+  
+PROJECT BACKLOG: [ UPDATED 29 MAY 2017 ]  
 - Separate out helicopter input.                                                    [Complete]  
 - Look into buttons. Adopt and adapt buttons2.c to incoporate all input             [Complete]  
 - Make PID control function return duty cycle (Percent 0.05 - 0.95)                 [Complete]  
@@ -15,9 +16,10 @@ TODO: [ UPDATED 29 MAY 2017 ]
 - Destroy freezing bug                                                              [Complete]  
 - UART/OLED Yaw display increment = [float 15.27] rather than specificed [int 15]   [Complete]  
 - Comments + WhiteSpace + Formatting                                                [Complete]  
-
-
-[History]
+  
+  .  
+    
+[HISTORY]  
 __ 28.3.2017 ___________________________________________________________________  
 Updated Master branch to 28th March [Milestone1] version.  
 This has YET to be tested in the lab.  
@@ -27,18 +29,14 @@ Updated / Uploaded:
 - pwmGen.c + pwmGen.h  
 - README.md  
   
-NB: I assume that the buttons2 and cirBufT files were not altered.  
+NB: It is assumed that the buttons2 and cirBufT files were not altered.  
 ________________________________________________________________________________  
-  
-.  
-  
-.  
   
 .  
   
 __ 24.3.2017 ___________________________________________________________________  
 I made a new Branch.   
-"NotVeryGood" branch is... kind of working... I put all the things into a single  
+"NotVeryGood" branch contains bugs. I put all the things into a single  
 main file and got it to more or less work, but it was quite poorly done and I  
 might try and redo most of it. It main problem (other than being messy) is that   
 for some reason the intervals dont seem to be being recorded quite right and  
@@ -49,29 +47,20 @@ ________________________________________________________________________________
   
 .  
   
-.  
-  
-.  
-  
 __ 21.3.2017 ___________________________________________________________________  
-TODO: (loose guide - feel free to change any/all!)  
+TODO: (loose guide - feel free to change any/all)  
   
-1. Create main .c file and write empty (required) methods.  
-    - Such as init() main() display() etc.. [Completed]  
+1. Create main .c file and write empty shell of all required methods.[Completed]  
       
-2. Strip out functionality of pwmGen.c and pulseInrpt.c and _somehow_  
+2. Strip out functionality of pwmGen.c and pulseInrpt.c and  
     make this callable from our main .c file. [Completed]  
 ________________________________________________________________________________  
   
 .  
   
-.  
-  
-.  
-  
 ________________________________________________________________________________  
 
-MILESTONE 1 REQUIREMENTS:  
+PROJECT REQUIREMENTS:  
 ________________________________________________________________________________  
   
 M1.1 Generate a PWM output on Connector J4-05 (PC5, M0PWM7).  
